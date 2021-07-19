@@ -1157,6 +1157,11 @@ blockquote {
         padding: 10px 10px 0;
         border-bottom: 10px solid transparent;
     }
+    .client-overlay {
+        opacity: 1!important;
+        background: rgba(230, 228, 228, 0.8)!important;
+        color: #111;
+    }
 
 }
 
@@ -1412,6 +1417,7 @@ blockquote {
 
 #psicoterapia a:hover .client-overlay {
     opacity: 1;
+
 }
 
 .client-overlay span {
